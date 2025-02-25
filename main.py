@@ -5,12 +5,12 @@ from transformers import pipeline
 def load_pipelines():
     token_classifier = pipeline(
         task="token-classification",
-        model="abte-restaurants-distilbert-base-uncased/checkpoint-344",
+        model="Dukzf1v/term-extraction",
         aggregation_strategy="simple"
     )
     classifier = pipeline(
         task="text-classification",
-        model="absa-restaurants-albert-base-v2/checkpoint-630"
+        model="Dukzf1v/sentiment-analysis"
     )
     return token_classifier, classifier
 
