@@ -100,4 +100,4 @@ wheel==0.45.1
 wrapt==1.17.2
 scikit-learn
 sentencepiece
-
+huggingface_hub
